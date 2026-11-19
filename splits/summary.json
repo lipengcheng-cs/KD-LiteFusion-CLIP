@@ -1,0 +1,19 @@
+{
+  "protocol": "deduplicated_v1",
+  "splits": {
+    "train": {
+      "sample_count": 5171,
+      "unique_id_count": 5171
+    },
+    "val": {
+      "sample_count": 989,
+      "unique_id_count": 989
+    },
+    "test": {
+      "sample_count": 947,
+      "unique_id_count": 947
+    }
+  },
+  "total_samples": 7107,
+  "cross_split_overlap": 0
+}
