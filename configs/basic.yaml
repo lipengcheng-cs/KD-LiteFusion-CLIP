@@ -1,0 +1,26 @@
+data:
+  manifest: null
+  image_root: null
+  splits_dir: splits
+  id_column: sample_id
+  image_column: image_path
+  text_column: text
+  label_column: label
+  label_to_id:
+    affected_individuals: 0
+    infrastructure_and_utility_damage: 1
+    rescue_volunteering_or_donation_effort: 2
+    other_relevant_information: 3
+    not_humanitarian: 4
+student:
+  dim: null
+  rank: null
+  hidden_dim: null
+  num_classes: null
+  dropout: null
+  shortcut_weight: null
+teacher:
+  dim: null
+  num_classes: null
+  dropout: null
+  hidden_dim: null
